@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealTime Chat Application</title>
+    <link rel="stylesheet" href="/index.css">   
+</head>
+<body>
+    <!-- <nav id="nav"><img src="logo2.jpg" alt="reload"></nav>
+    <div class="container">
+        <div class="message right">how r u</div>
+        <div class="message left">hello</div>
+    </div>
+    <div class="send">
+        <form action="/" id="sendBox">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">SEND</button>
+        </form>
+    </div> -->
+    <section class="chat_section">
+        <div class="brand">
+            <img height="70px" width="90px" src="/logo2.jpg" alt="">
+            <h1>iChat</h1>
+        </div>
+        <div class="message_area"></div>
+        </div>
+        <div id="msg">
+            <textarea id="textarea" cols="30" rows="1" placeholder="write a message"></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
